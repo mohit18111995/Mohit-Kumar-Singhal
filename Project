@@ -1,0 +1,831 @@
+SathyabamaBanner.php
+<html>
+<body>
+<body background=H:\beach-cool-wallpaper-hd_1.jpg>
+<center>
+<u><p align="center"> <h1 style="color:FF9933">WELCOME TO SATHYABAMA UNIVERSITY</h1></p></u>
+<p align="center"> <h6 style="color:FF9933">(Established under section 3 of UGC Act,1956) Accredited by NAAC(A Christian Minority institution)</h6></p>
+<p align="center"> <h2 style="color:FF00FF">ENTRY IS NOT IMPORTANT,EXIT IS IMPORTANT"</h2></p>
+<p align="center"> <h2 style="color:FF0000">LEARN TODAY-LEAD TOMORROW</h2></p>
+</center>
+<hr />
+<a href="Home.php">Home</a>
+<a href="about.php">About</a>
+<a href="student.php">Student Login</a>
+<a href="administrator.php">Administrator Login</a>
+<a href="help.php">Help</a>
+<br></br>
+</body>
+</html>
+<?php
+include("SathyabamaBanner.php");
+?>
+
+Home.php
+<html>
+<body>
+<br></br>
+<img src="H:\cus-banner1.jpg" alt="ggeheheheh" width="100" height="100" align="left" hspace="10" vspace="10">
+<p align="left" style="color:blue"><b>This is a sathyabama university............</b></p>
+<br></br>
+<br></br>
+<img src="H:\jpr1.jpg" alt="ggeheheheh" width="100" height="100" align="left" hspace="10" vspace="10">
+<p align="left" style="color:blue"><b>This is a <i>Chancellor</i> of sathyabama university............</b></p>
+<br></br>
+<br></br>
+<img src="H:\dr1.jpg" alt="ggeheheheh" width="100" height="100" align="left" hspace="10" vspace="10">
+<p align="left" style="color:pink"><b>This is a <i>DIRECTOR</i> of sathyabama university............</b></p>
+<br></br>
+<br></br>
+<img src="H:\ds1.jpg" alt="ggeheheheh" width="100" height="100" align="left" hspace="10" vspace="10">
+<p align="left" style="color:pink"><b>This is a <i>DIRECTOR</i> of sathyabama university............</b></p>
+</body>
+</html>
+
+About.php
+<?php
+include("SathyabamaBanner.php");
+?>
+<html>
+<body>
+<br></br>
+<center>
+<img src="H:\cus-banner1.jpg" alt="ggeheheheh" width="300" height="300" align="center" hspace="10" vspace="10">
+</center>
+<p style="color:9900FF">Sathybama engineering clg established by JEPPIAAR EDUCATIONAL TRUST in 1987.the university offers courses in 24 branches of engg at UG lavel
+and 24 courses are PG level. 
+</p>
+<center>
+<b><u><p><h1 style="color:FF9933">Thank You<h1></p></u></b>
+</center>
+</body>
+</html>
+
+Student.php
+<?php
+include("SathyabamaBanner.php");
+?>
+<html>
+<body>
+<br></br>
+<center>
+<u><h1><marquee direction="left" style="color:FFFFFF">WELCOME TO TRAINING and PLACEMENT CELL</marquee></h1></u>
+<u><p align="center"> <h2 style="color:330000">WELCOME TO TRAINING and PLACEMENT CELL </h2></p></u>
+</center>
+<p align="center"> <h3 style="color:009966">STUDENT LOGIN </h3></p>
+<form action="user.php" method="POST">
+<p style="color:FFFF00">Enter Your Register Number <input type="text" size="25" name="username" placeholder="enter your username" value=""><br></br></p>
+<p style="color:FFFF00">Enter your Date of Birth <input type="text" name="password" placeholder=1995-02-15 size="25" value="" ><br></br></p>>
+<b><input type="submit" value="Submit"></b>
+</form>
+<b><p align="left"><a href="register.php">Register</a></p></b>
+</body
+</html>
+
+Register.php
+<?php
+include("SathyabamaBanner.php");
+?>
+<!DOCTYPE html>
+<html>
+<body>
+<br></br>
+<u><h1><marquee direction="left" style="color:FF00FF"> WELCOME TO TRAINING and PLACEMENT CELL </marquee></h1></u>
+<center>
+<u><p align="center"> <h2 style="color:330000">WELCOME TO TRAINING and PLACEMENT CELL </h2></p></u>
+</center>
+<p align="center"> <h3 style="color:009966">Create STUDENT LOGIN </h3></p>
+<center><p> PERSONAL INFORMATION</P>
+<form action="personalinfoinsert.php" method="POST">
+<p style="color:Black">Enter Your Reg No. <input type="text" size="25" value="" name="regno" required><br></br></p>
+<p style="color:Black">Enter Your Name <input type="text" size="25" value="" width="50" name="Name" required/><br></br></p>
+<p style="color:Black">Enter Your Father Name <input type="text" size="25" value="" name="fname" required><br></br></p>
+<p style="color:Black">Enter Your Date of Birth <input type="Date" size="25" value="" name="DOB" required><br></br></p>
+<lable style="color:Black" >GENDER  </label>
+Male<input type="radio" name="Gender">
+Female<input type="radio" name="Gender">      
+<p style="color:Black">Blood  Group <input type="text" size="5" value="" name="BG"><br></br></p>
+<p style="color:Black">Community <input type="text" size="25" value="" name="community"><br></br></p>
+<p style="color:Black">Nationality         <input type="text" size="25" value="" name="nationality"><br></br></p>
+<b><input class="submit" type="submit" value="Next"></b>
+</form>
+</center>
+</body>
+</html>
+
+academicinfo.php
+<?php
+include("SathyabamaBanner.php");
+?>
+<!DOCTYPE html>
+<html>
+<body>
+<br></br>
+<u><h1><marquee direction="left" style="color:FF00FF"> WELCOME TO TRAINING and PLACEMENT CELL </marquee></h1></u>
+<center>
+<u><p align="center"> <h2 style="color:330000">WELCOME TO TRAINING and PLACEMENT CELL </h2></p></u>
+</center>
+<p align="center"> <h3 style="color:009966">Create STUDENT LOGIN </h3></p>
+<center><p> ACADEMIC INFORMATION</P>
+<form action="academicinfoinsert.php" method="POST">
+<p style="color:Black">Reg No<input type="text" size="25" value="" name="regno" ><br></br></p>
+<p style="color:Black">Roll No<input type="text" size="25" value="" name="rollno" ><br></br></p>
+<p style="color:Black">Degree <input type="text" size="25" value="" name="Degree" ><br></br></p>
+<p style="color:Black">Course<input type="text" size="25" value="" name="course" ><br></br></p>
+<p style="color:Black"><strong>Branch</strong></p>
+<select name="Branch" id="Types">
+<option>CSE</option>
+<option>IT</option>
+<option>ETC</option>
+<option>Civil</option>
+<option>ECE</option>
+<option>E and I</option>
+<option>E and C</option>
+<option>EEE</option>
+<option>Mechanical</option>
+<option>AutoMobile</op
+<option>Aeronautical</option>
+<option>BIO</option>
+<option>BIO INFO</option>
+</select>
+<p style="color:Black">Batch<input type="text" size="25" value="" name="Batch" ><br></br></p>
+<p style="color:Black">Department<input type="text" size="25" value="" name="Department" ><br></br></p>
+<p style="color:Black">Category<input type="text" size="25" value="" name="Category" ><br></br></p>
+<p style="color:Black">Section <input type="text" size="25" value="" name="section" ><br></br></p>
+<p style="color:Black">10th %<input type="text" size="25" value="" name="10th" ><br></br></p>
+<p style="color:Black">12th %<input type="text" size="25" value="" name="12th" ><br></br></p>
+<b><input class="submit" type="submit" value="Next"></b>
+</form>
+</center>
+</body>
+</html>
+
+Contactinfo.php
+<?php
+include("SathyabamaBanner.php");
+?>
+<!DOCTYPE html>
+<html>
+<body>
+<br></br>
+<u><h1><marquee direction="left" style="color:FF00FF"> WELCOME TO TRAINING and PLACEMENT CELL </marquee></h1></u>
+<center>
+<u><p align="center"> <h2 style="color:330000">WELCOME TO TRAINING and PLACEMENT CELL </h2></p></u>
+</center>
+<p align="center"> <h3 style="color:009966">Create STUDENT LOGIN </h3></p>
+<p>CONTACT INFORMATION</p>
+<form action="contactinfoinsert.php" method="POST">
+<p style="color:Black">RegNo<input type="text" size="25" value="" name="regno" required><br></br></p>
+<lable style="color:Black" >Boarding Point</label>
+Hostler<input type="radio" name="BP" required>
+DayScholer<input type="radio" name="gender">  
+<p style="color:Black">Student E-Mail ID<input type="text" size="25" value="" name="email" required><br></br></p> 
+<p style="color:Black">Mobile No.<input type="text" size="25" value="" name="mobile" required><br></br></p>
+<p style="color:Black">Address<input type="text" size="25" value=""name="address" required><br></br></p>
+<p style="color:Black">State<input type="text" size="25" value="" name="state" required><br></br></p>
+<p style="color:Black">Pincode<input type="text" size="25" value="" name="pincode" required><br></br></p>
+<p style="color:Black">Parent Email-ID<input type="text" size="25" value="" name="parentemail" required><br></br></p>
+<p style="color:Black"> Parent Mobile No.<input type="text" size="25" value="" name="parentno" required><br></br></p>  
+<b><input class="submit" type="submit" value="Submit"></b>
+</form>
+</center>
+</body>
+</html>
+
+
+User.php
+<?php
+include("connection.php");
+if(!mysqli_select_db($conn,'Project'));
+{
+echo "   "; 
+}
+$user=$_POST['username'];
+$pwd=$_POST['password'];
+
+$sql = "SELECT * FROM userpass WHERE RegNo='$user' AND DOB='$pwd'";
+$result = $conn->query($sql);
+if(!$row=$result->fetch_assoc())
+{
+echo "incorrect username and password";
+}
+else
+{
+echo 'you are logged in!';
+include("login.php");
+}
+//header("Location:index.php");
+
+?>
+
+Login.php
+<html>
+<body>
+<body background=H:\beach-cool-wallpaper-hd_1.jpg>
+<center>
+<u><p align="center"> <h1 style="color:FF9933">WELCOME TO SATHYABAMA UNIVERSITY</h1></p></u>
+<p align="center"> <h6 style="color:FF9933">(Established under section 3 of UGC Act,1956) Accredited by NAAC(A Christian Minority institution)</h6></p>
+<p align="center"> <h2 style="color:FF00FF">ENTRY IS NOT IMPORTANT,EXIT IS IMPORTANT"</h2></p>
+<p align="center"> <h2 style="color:FF0000">LEARN TODAY-LEAD TOMORROW</h2></p>
+</center>
+<hr/>
+<a href="Home.php">Home</a>
+<a href="Personalinfo.php">Profile</a>
+<a href="Placement.php">Placement</a>
+<a href="Downloads.php">Downloads</a>
+<a href="Notifications.php">Notifications</a>
+<a href="Contact.php">Contact</a>
+<hr/>
+</body>
+</html>
+
+Personalinfo.php
+<?php
+include("connection.php");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Tables</title>
+</head>
+<body>
+<center>
+//Personal Information
+<table border="1" cellpadding="5" cellspacing="5" bordercolor="blue" bgcolor="white" width="1100" height="50">
+<tr>
+<td colspan="2"> <center>Name:<?php include("Details/Name.php"); ?>  </center>    </td>
+<tr>
+<td>Father Name:<?php include("Details/fathername.php"); ?></td><br>
+<td>Date Of Birth:<?php include("Details/DOB.php"); ?></td>
+<tr>
+<td>Gender:<?php include("Details/Gender.php"); ?></td>
+<td>Blood Group:<?php include("Details/Blood.php"); ?></td>
+<tr>
+<td>Community:<?php include("Details/Community.php"); ?></td>
+<td>Nationality:<?php include("Details/Nationality.php"); ?></td>
+</tr>
+</table>
+//Academic Information
+<table border="1" cellpadding="5" cellspacing="5" bordercolor="blue" bgcolor="white" width="1100" height="50">
+<tr>
+<td> RegNo.:<?php include("Details/RegNo.php"); ?></td>
+<td>RollNo.:<?php include("Details/RollNo.php"); ?></td>
+<tr><br>
+<td>Course:<?php include("Details/Course.php"); ?></td>
+<td>Degree:<?php include("Details/Degree.php"); ?></td>
+<tr>
+<td>Branch:<?php include("Details/Branch.php"); ?></td>
+<td>Batch:<?php include("Details/Batch.php"); ?></td>
+<tr>
+<td>Department:<?php include("Details/Department.php"); ?></td>
+<td>Section:<?php include("Details/Section.php"); ?></td>
+<tr>
+<td>10th %:<?php include("Details/10th.php"); ?></td>
+<td>12th%:<?php include("Details/12th.php"); ?></td>
+</tr>
+</table>
+
+//Contact Information
+<table border="1" cellpadding="5" cellspacing="5" bordercolor="blue" bgcolor="white" width="1100" height="50">
+<tr>
+<td>Hostlel/Dayschlor:<?php include("Details/HD.php"); ?></td>
+<td>Student e-Mail ID:<?php include("Details/StudentEMail.php"); ?></td>
+<tr><br>
+<td>Mobile Number:<?php include("Details/MobNo.php"); ?></td>
+<td>Parent Mobile Number:<?php include("Details/ParentMobNo.php"); ?></td>
+<tr>
+<td>Address:<?php include("Details/Address.php"); ?></td>
+<td>State:<?php include("Details/State.php"); ?></td>
+<tr>
+<td>Pincode:<?php include("Details/Pincode.php"); ?></td>
+<td>Parent e-Mail ID:<?php include("Details/ParentEMail.php"); ?></td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+10th.php
+<?php
+include("connection.php");
+$sql = "SELECT 10th FROM academicinfo  WHERE RegNo=3412108";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["10th"]; 
+}
+ }else
+{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+12th.php
+<?php
+include("connection.php");
+$sql = "SELECT 12th FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["12th"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Address.php
+<?php
+include("connection.php");
+$sql = "SELECT Address FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Address"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Batch.php
+<?php
+
+include("connection.php");
+$sql = "SELECT Batch FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Batch"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Blood.php
+<?php
+include("connection.php");
+$sql = "SELECT BloadGroup FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["BloadGroup"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Branch.php
+<?php
+include("connection.php");
+$sql = "SELECT Branch FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Branch"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Community.php
+<?php
+
+include("connection.php");
+$sql = "SELECT Community FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Community"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Course.php
+<?php
+
+include("connection.php");
+$sql = "SELECT Course FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Course"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Degree.php
+<?php
+include("connection.php");
+$sql = "SELECT Degree FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Degree"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Department.php
+<?php
+
+include("connection.php");
+$sql = "SELECT Department FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Department"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+DOB.php
+<?php
+include("connection.php");
+$sql = "SELECT DOB FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["DOB"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Fathername.php
+<?php
+include("connection.php");
+$sql = "SELECT Fathername FROM personalinfo WHERE RegNo=3412108";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Fathername"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Gender.php
+<?php
+include("connection.php");
+$sql = "SELECT Gender FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Gender"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+HD.php
+<?php
+include("connection.php");
+$sql = "SELECT BP FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["BP"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+MobNo.php
+<?php
+include("connection.php");
+$sql = "SELECT MobNo FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["MobNo"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Name.php
+<?php
+include("connection.php");
+$sql = "SELECT Name FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Name"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Nationality.php
+<?php
+include("connection.php");
+$sql = "SELECT Nationality FROM personalinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Nationality"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+ParentEMail.php
+<?php
+include("connection.php");
+$sql = "SELECT ParentEMail FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["ParentEMail"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+ParentMobNo.php
+<?php
+include("connection.php");
+$sql = "SELECT ParentMobNo FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["ParentMobNo"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Pincode.php
+<?php
+include("connection.php");
+$sql = "SELECT Pincode FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Pincode"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+RegNo.php
+<?php
+include("connection.php");
+$sql = "SELECT RegNo FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["RegNo"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+RollNo.php
+<?php
+include("connection.php");
+$sql = "SELECT RollNo FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["RollNo"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Section.php
+<?php
+include("connection.php");
+$sql = "SELECT Section FROM academicinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["Section"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+State.php
+<?php
+include("connection.php");
+$sql = "SELECT State FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["State"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+StudentEMail.php
+<?php
+include("connection.php");
+$sql = "SELECT StudentEMail FROM contactinfo  WHERE RegNo=3412108 ";
+$result = $conn->query($sql);
+if($result->num_rows > 0) 
+{
+    while($row= $result->fetch_assoc()) 
+{
+        echo "   ".$row["StudentEMail"]; 
+}
+ 
+}else{
+    echo "0 results";
+}
+$conn->close();
+?>
+
+Academicinfoinsert.php
+
+<?php
+include "connection.php";
+$RegNo=$_POST["regno"];
+$RollNo=$_POST["rollno"];
+$Degree=$_POST["Degree"];
+$course=$_POST["course"];
+$Branch=$_POST["Branch"];
+$Batch=$_POST["Batch"];
+$Department=$_POST["Department"];
+$Category=$_POST["Category"];
+$section=$_POST["section"];
+$tenth=$_POST["10th"];
+$twelveth=$_POST["12th"];
+$sql="INSERT INTO academicinfo (RegNo,RollNo,Degree,Course,Branch,Batch,Department,Category,Section,10th,12th) VALUES ('$RegNo','$RollNo','$Degree','$course','$Branch','$Batch','$Department','$Category','$section','$tenth','$twelveth')";
+
+if($conn->query($sql)==TRUE)
+{
+include "contactinfo.php";
+}
+else
+{echo "error";}
+
+?>
+Contactinfoinsert.php
+<?php
+include "connection.php";
+$RegNo=$_POST["regno"];
+$BP=$_POST["BP"];
+$email=$_POST["email"];
+$mobile=$_POST["mobile"];
+$address=$_POST["address"];
+$state=$_POST["state"];
+$pincode=$_POST["pincode"];
+$parentemail=$_POST["parentemail"];
+$parentno=$_POST["parentno"];
+$sql="INSERT INTO contactinfo (RegNo,BP,StudentEMail,MobNo,Address,State,Pincode,ParentEMail,ParentMobNo) VALUES ('$RegNo','$BP','$email','$mobile','$parentno','$address','$state','$pincode','$parentemail')";
+
+if($conn->query($sql)==TRUE)
+{
+echo "THANK YOU FOR REGISTRATION";
+}
+else
+{echo "error";}
+
+?>
+
+Personalinfoinsert.php
+<?php
+include "connection.php";
+$RegNo=$_POST["regno"];
+$Name=$_POST["Name"];
+$Fathername=$_POST["fname"];
+$DOB=$_POST["DOB"];
+$Gender=$_POST["Gender"];
+$BloadGroup=$_POST["BG"];
+$Community=$_POST["community"];
+$Nationality=$_POST["nationality"];
+$sql="INSERT INTO personalinfo (RegNo,Name,Fathername,DOB,Gender,BloadGroup,Community,Nationality) VALUES ('$RegNo','$Name','$Fathername','$DOB','$Gender','$BloadGroup','$Community','$Nationality')";
+
+if($conn->query($sql)==TRUE)
+{
+include "academicinfo.php";
+}
+else
+{echo "error";}
+?>
+
+
